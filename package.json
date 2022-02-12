@@ -1,0 +1,27 @@
+{
+  "name": "el-bad-robot",
+  "version": "1.0.0",
+  "description": "Bad Bunny RNN Machine Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-diaz/el-bad-robot.git"
+  },
+  "author": "Derek Diaz Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-diaz/el-bad-robot/issues"
+  },
+  "homepage": "https://github.com/derek-diaz/el-bad-robot#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-converter": "^3.9.0",
+    "@tensorflow/tfjs-core": "^3.9.0",
+    "@tensorflow/tfjs-node": "^3.9.0",
+    "brain.js": "^2.0.0-beta.3",
+    "ml5": "^0.7.1"
+  }
+}
