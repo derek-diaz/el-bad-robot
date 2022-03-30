@@ -124,7 +124,7 @@ function App() {
           </Text>
 
           <TextInput
-              placeholder="OMG, it also has a placeholder"
+              placeholder="Ey!"
               required
               value={value}
               onChange={(event) => setValue(event.currentTarget.value)}
