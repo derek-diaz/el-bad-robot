@@ -24,8 +24,6 @@ fs.writeFile('model-bad-bunny.json', JSON.stringify(trainingModel), err => {
 
 const run1 = lstm.run('Bad Bunny');
 const run2 = lstm.run('Bad');
-const run3 = lstm.run('cabron');
 
 console.log('run 1:' + run1);
 console.log('run 2:' + run2);
-console.log('run 3:' + run3);
